@@ -11,7 +11,9 @@ We have learned how to model uncertainty in the world using graphical models and
 More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model-I---Representations/blob/master/Decision-Making-Release/PA-Decision-Making.pdf).
 
 ## 3. Bayes Nets for Genetic Inheritance
-Genetic counselors want your help in advising couples with a family history of a genetic disease. Specifically, they want to help such couples decide whether to have a biological child or to adopt by assessing the probability that their un-born child will have the disease. Through this assignment, you will see how Bayesian networks can be used to determine such probabilities through modeling the mechanism of genetic inheritance.
+Genetic counselors want your help in advising couples with a family history of a genetic disease. Specifically, they want to help such couples decide whether to have a biological child or to adopt by assessing the probability that their un-born child will have the disease. Through this assignment, we will see how Bayesian networks can be used to determine such probabilities through modeling the mechanism of genetic inheritance.
+
+More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model-I---Representations/blob/master/BNs-for-Genetic-Inheritance-Release/PA-BNs-for-Genetic-Inheritance.pdf).
 
 ## 4 Markov Networks for OCR
 In the last assignment, you used Bayesian networks to model real-world genetic inheritance networks. Your rival claims that this application to genetic inheritance underscores the limited applicability of graphical models, because one doesn’t often find problems with network structures that clear. To prove him wrong, you decide to apply the graphical model framework to the task of
