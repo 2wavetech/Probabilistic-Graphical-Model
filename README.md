@@ -18,3 +18,5 @@ More details can be found [here](https://github.com/2wavetech/Probabilistic-Grap
 ## 4 Markov Networks for OCR
 In the last assignment, you used Bayesian networks to model real-world genetic inheritance networks. Your rival claims that this application to genetic inheritance underscores the limited applicability of graphical models, because one doesn’t often find problems with network structures that clear. To prove him wrong, you decide to apply the graphical model framework to the task of
 optical character recognition (OCR), a problem that is considerably messier than that of geneticinheritance. Your goal is to accept as input an image of text and output the text content itself.
+
+More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model-I---Representations/blob/master/PA-Markov-Networks-for-OCR-Release/PA-Markov-Networks-for-OCR.pdf).
