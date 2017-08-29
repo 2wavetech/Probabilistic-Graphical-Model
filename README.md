@@ -1,10 +1,12 @@
 # Probabilistic Graphical Model I - Representations
 
 ## 1. Simple Bayesian Network for Knowledge Engineering
-In the first part of the assignment, you will use the SAMIAM package to design a small Bayesian network for evaluating credit-worthiness. Then, in the second part of the assignment, you will replicate some of the functionality in SAMIAM for answering probability queries in the network using the factor operations discussed in the lectures. You will test your implementation on the network you designed in the first part of the assignment.
+In the first part of the assignment, we will use the SAMIAM package to design a small Bayesian network for evaluating credit-worthiness. Then, in the second part of the assignment, we will replicate some of the functionality in SAMIAM for answering probability queries in the network using the factor operations discussed in the lectures. We will test our implementation on the network we designed in the first part of the assignment.
+
+More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model-I---Representations/blob/master/Decision-Making-Release/PA-Decision-Making.pdf).
 
 ## 2. Decision Making
-You have learned how to model uncertainty in the world using graphical models and how to perform queries on those models to ask questions about the world. You have also learned the basics of decision making in this uncertain world using the principle of maximum expected utility. In this assignment, you will explore how to represent decision making in the framework of graphical models along with some of the algorithmic issues that arise. Specifically, you will learn how to represent influence diagrams as a sort of Bayes Net and perform inference over this representation. By the end of this assignment, you will have applied these new techniques to solve a real-world problem in medical care and treatment.
+We have learned how to model uncertainty in the world using graphical models and how to perform queries on those models to ask questions about the world. We have also learned the basics of decision making in this uncertain world using the principle of maximum expected utility. In this assignment, we will explore how to represent decision making in the framework of graphical models along with some of the algorithmic issues that arise. Specifically, we will learn how to represent influence diagrams as a sort of Bayes Net and perform inference over this representation. By the end of this assignment, we will have applied these new techniques to solve a real-world problem in medical care and treatment.
 
 More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model-I---Representations/blob/master/Decision-Making-Release/PA-Decision-Making.pdf).
 
