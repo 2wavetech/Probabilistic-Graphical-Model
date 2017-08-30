@@ -42,3 +42,16 @@ We'll start with implementing Gibbs and Metropolis-Hastings sampling, both of wh
 Now that we have that baseline, let's move on to Swendsen-Wang. Swendsen-Wang was designed to propose more global moves in the context of MCMC for pairwise Markov networks of the type used for image segmentation or Ising models, where adjacent variables like to take the same value. At its core, it is a graph node clustering algorithm.
 
 more details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model/blob/master/Sampling%20Methods/PA-Sampling-Methods.pdf).
+
+## 7. CRF Learning for OCR
+
+Earlier in this course, you learned how to construct a Markov network to perform the task of optical character recognition (OCR). The values in each factor, however, were provided for you.
+
+This assignment returns to the same OCR task, but this time you will write the code to learn the factor values automatically from data.  This assignment is divided into two parts. In the first part, we use a small (but real) parameter learning task to introduce a handful of key concepts applicable to nearly any machine learning problem:
+
+ Stochastic gradient descent for parameter learning
+ Training, validation, and test data
+ Regularization
+
+In the second part of the assignment, you will apply these techniques to the OCR task. In particular, you will construct a Markov network similar to the one from before and use stochastic gradient descent to learn the parameters of the network from a set of training data. Be sure to get a head start on this assignment! The first part introduces a set of new concepts,
+and the second is rather intricate. Good luck!
