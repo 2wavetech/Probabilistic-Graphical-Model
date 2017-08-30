@@ -31,6 +31,8 @@ We will explore clique tree message passing in this assignment, and by its end, 
     4. Sum-Product Message Passing
     5. Max-Sum Message Passing
 
+More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model/blob/master/Exact-Inference/PA4Description_release.pdf).
+
 ## 6. Sampling Methods
 In the last project, we focused on implementing exact inference methods. Unfortunately, sometimes performing exact inference is intractable and cannot be done as performing exact inference in general networks is NP-hard. Fortunately, there are a number of approximate inference methods that one can use instead. In this programming assignment, we will investigate a class
 of approximate inference methods based on Markov chain Monte Carlo (MCMC) sampling.
