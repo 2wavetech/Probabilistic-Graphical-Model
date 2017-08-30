@@ -63,3 +63,11 @@ More details can be found [here](https://github.com/2wavetech/Probabilistic-Grap
 In previous projects, you have learned about parameter estimation in probabilistic graphical models, as well as structure learning. In this programming assignment, you will explore structure learning in probabilistic graphical models from a synthetic dataset. In particular, we will provide you synthetic human and alien body pose data. We use a directed model to represent their body poses. You will tackle problems including learning CPDs for continuous variables and learning tree-structured graphs among body parts. Finally, you will use the learned models to classify unseen pose data as either humans or aliens.
 
 More details can be found [here]().
+
+## 9. Learning with Incomplete Data
+
+In the previous programming assignment, you learned tree-structured Bayesian networks to represent body poses. In this assignment, you will be using the network you learned for human poses (in the previous assignment) to perform action recognition on real-world KinectTMdata.
+
+The KinectTMdata was collected by performing actions and extracting the human pose data associated with each action. We have collected data for the following three actions: \clap", \high kick", and \low kick". Your goal in this assignment is to build a model that is able to identify the action performed.
+
+The approach that we will take in this assignment is to model an action as a sequence of poses. However, unlike in the previous programming assignment, we do not have the class labels for these poses. More specifically, in that assignment we knew whether a pose belonged to a human or an alien, but in the KinectTMdata, we do not know in advance what poses comprise an action. In fact, we do not even know what the possible poses that comprise the various actions are. As such, we will have to build and learn models that incorporate a latent variable for pose classes, which makes this a more challenging task than the classification problem you previously solved. You will make extensive use of the Expectation-Maximization (EM) algorithm to learn these models with latent variables.
