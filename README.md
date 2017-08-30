@@ -30,3 +30,13 @@ We will explore clique tree message passing in this assignment, and by its end, 
     3. Message Ordering
     4. Sum-Product Message Passing
     5. Max-Sum Message Passing
+
+## 6. Sampling Methods
+In the last project, we focused on implementing exact inference methods. Unfortunately, sometimes performing exact inference is intractable and cannot be done as performing exact inference in general networks is NP-hard. Fortunately, there are a number of approximate inference methods that one can use instead. In this programming assignment, we will investigate a class
+of approximate inference methods based on Markov chain Monte Carlo (MCMC) sampling.
+
+We'll start with implementing Gibbs and Metropolis-Hastings sampling, both of which are MCMC methods that sample from the posterior of a probabilistic graphical model.
+
+Now that we have that baseline, let's move on to Swendsen-Wang. Swendsen-Wang was designed to propose more global moves in the context of MCMC for pairwise Markov networks of the type used for image segmentation or Ising models, where adjacent variables like to take the same value. At its core, it is a graph node clustering algorithm.
+
+more details can be found [here]().
