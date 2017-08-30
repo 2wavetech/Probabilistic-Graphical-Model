@@ -41,4 +41,4 @@ We'll start with implementing Gibbs and Metropolis-Hastings sampling, both of wh
 
 Now that we have that baseline, let's move on to Swendsen-Wang. Swendsen-Wang was designed to propose more global moves in the context of MCMC for pairwise Markov networks of the type used for image segmentation or Ising models, where adjacent variables like to take the same value. At its core, it is a graph node clustering algorithm.
 
-more details can be found [here]().
+more details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model/blob/master/Sampling%20Methods/PA-Sampling-Methods.pdf).
