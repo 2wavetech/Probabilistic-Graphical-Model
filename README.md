@@ -1,4 +1,4 @@
-# Probabilistic Graphical Model I - Representations
+# Probabilistic Graphical Model - Programming Assignements
 
 ## 1. Simple Bayesian Network for Knowledge Engineering
 In the first part of the assignment, we will use the SAMIAM package to design a small Bayesian network for evaluating credit-worthiness. Then, in the second part of the assignment, we will replicate some of the functionality in SAMIAM for answering probability queries in the network using the factor operations discussed in the lectures. We will test our implementation on the network we designed in the first part of the assignment.
