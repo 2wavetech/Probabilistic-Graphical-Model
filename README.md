@@ -21,7 +21,7 @@ optical character recognition (OCR), a problem that is considerably messier than
 
 More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model-I---Representations/blob/master/PA-Markov-Networks-for-OCR-Release/PA-Markov-Networks-for-OCR.pdf).
 
-## 5. Belief Propagation algorithm
+## 5. Belief Propagation Algorithm
 
 We will explore clique tree message passing in this assignment, and by its end, will have created an inference engine powerful enough to handle probabilistic queries and find MAP assignments over the genetic inheritance networks from the second programming assignment and the OCR networks from the third programming assignment, respectively. Here are the steps:
 
