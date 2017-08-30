@@ -54,4 +54,6 @@ This assignment returns to the same OCR task, but this time you will write the c
 - Regularization
 
 In the second part of the assignment, you will apply these techniques to the OCR task. In particular, you will construct a Markov network similar to the one from before and use stochastic gradient descent to learn the parameters of the network from a set of training data. Be sure to get a head start on this assignment! The first part introduces a set of new concepts,
-and the second is rather intricate. Good luck!
+and the second is rather intricate.
+
+More details can be found [here]().
