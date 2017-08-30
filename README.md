@@ -41,7 +41,7 @@ We'll start with implementing Gibbs and Metropolis-Hastings sampling, both of wh
 
 Now that we have that baseline, let's move on to Swendsen-Wang. Swendsen-Wang was designed to propose more global moves in the context of MCMC for pairwise Markov networks of the type used for image segmentation or Ising models, where adjacent variables like to take the same value. At its core, it is a graph node clustering algorithm.
 
-more details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model/blob/master/Sampling%20Methods/PA-Sampling-Methods.pdf).
+More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model/blob/master/Sampling%20Methods/PA-Sampling-Methods.pdf).
 
 ## 7. CRF Learning for OCR
 
@@ -57,3 +57,9 @@ In the second part of the assignment, you will apply these techniques to the OCR
 and the second is rather intricate.
 
 More details can be found [here](https://github.com/2wavetech/Probabilistic-Graphical-Model/blob/master/CRF-Learning-For-OCR/PA-CRF-Learning-For-OCR.pdf).
+
+## 8. Learning Tree-structured Networks
+
+In previous projects, you have learned about parameter estimation in probabilistic graphical models, as well as structure learning. In this programming assignment, you will explore structure learning in probabilistic graphical models from a synthetic dataset. In particular, we will provide you synthetic human and alien body pose data. We use a directed model to represent their body poses. You will tackle problems including learning CPDs for continuous variables and learning tree-structured graphs among body parts. Finally, you will use the learned models to classify unseen pose data as either humans or aliens.
+
+More details can be found [here]().
