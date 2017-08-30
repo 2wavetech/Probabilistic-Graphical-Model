@@ -49,9 +49,9 @@ Earlier in this course, you learned how to construct a Markov network to perform
 
 This assignment returns to the same OCR task, but this time you will write the code to learn the factor values automatically from data.  This assignment is divided into two parts. In the first part, we use a small (but real) parameter learning task to introduce a handful of key concepts applicable to nearly any machine learning problem:
 
- Stochastic gradient descent for parameter learning
- Training, validation, and test data
- Regularization
+- Stochastic gradient descent for parameter learning
+- Training, validation, and test data
+- Regularization
 
 In the second part of the assignment, you will apply these techniques to the OCR task. In particular, you will construct a Markov network similar to the one from before and use stochastic gradient descent to learn the parameters of the network from a set of training data. Be sure to get a head start on this assignment! The first part introduces a set of new concepts,
 and the second is rather intricate. Good luck!
